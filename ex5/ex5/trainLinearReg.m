@@ -1,4 +1,4 @@
-function [theta] = trainLinearReg(X, y, lambda)
+ function [theta] = trainLinearReg(X, y, lambda)
 %TRAINLINEARREG Trains linear regression given a dataset (X, y) and a
 %regularization parameter lambda
 %   [theta] = TRAINLINEARREG (X, y, lambda) trains linear regression using

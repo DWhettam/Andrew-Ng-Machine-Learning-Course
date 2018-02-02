@@ -15,8 +15,12 @@ X_poly = zeros(numel(X), p);
 %
 % 
 
+for i = 1:p
+  powers(i) = i;
+end
 
-
+display(powers);
+X_poly = bsxfun(@power, X, powers);
 
 
 
