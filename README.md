@@ -6,4 +6,4 @@ Exercise 2 - Logistic Regression
 Exercise 3 - Multi-class Classification and Neural Networks  
 Exercise 4 - Neural Network Learning  
 Exercise 5 - Regularised Linear Regression and Bias/Variance  
-  
+Exercise 6 - Support Vector Machines and Spam Detector
