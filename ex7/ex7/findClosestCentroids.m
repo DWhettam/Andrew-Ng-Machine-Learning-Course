@@ -22,8 +22,6 @@ idx = zeros(size(X,1), 1);
 %
 
 distance = zeros(m,K);
-display(X);
-display(centroids);
 for i = 1:K
   centroidDistance = bsxfun(@minus, centroids(i,:), X);
   distance(:,i) = sum(centroidDistance.^2,2);
